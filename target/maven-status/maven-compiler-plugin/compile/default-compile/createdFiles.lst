@@ -1,0 +1,4 @@
+com/scoutingalpha/resource/LeagueResource.class
+com/scoutingalpha/jpa/repository/LeagueRepository.class
+com/scoutingalpha/jpa/entity/LeagueEntity.class
+com/scoutingalpha/SpringBootSampleApplication.class

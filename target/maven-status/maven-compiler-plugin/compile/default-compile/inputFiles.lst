@@ -1,0 +1,7 @@
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/jpa/entity/LeagueEntity.java
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/controller/LeagueResourceAssembler.java
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/resource/LeagueResource.java
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/SpringBootSampleApplication.java
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/controller/LeagueController.java
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/jpa/repository/LeagueRepository.java
+/Users/gosselinchristian/Sandboxes/sandbox-scoutingAlpha-dev-r1.0.0/sa-boot-sample/src/main/java/com/scoutingalpha/controller/LeaguePagedResourcesAssembler.java
