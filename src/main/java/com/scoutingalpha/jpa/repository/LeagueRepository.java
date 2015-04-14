@@ -8,5 +8,5 @@ import com.scoutingalpha.jpa.entity.LeagueEntity;
 @Repository
 public interface LeagueRepository extends
 		PagingAndSortingRepository<LeagueEntity, Integer> {
-
+	public LeagueEntity findByLeagueEntityName(String name);
 }

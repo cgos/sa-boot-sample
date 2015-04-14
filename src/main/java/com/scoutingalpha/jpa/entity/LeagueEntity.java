@@ -14,7 +14,10 @@ public class LeagueEntity {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "id")
-	private Integer id;
+	private Integer leagueEntityId;
+
+	@Column(name = "name", length = 45)
+	private String leagueEntityName;
 
 	// @OneToMany(mappedBy = "leagueIdleague")
 	// private Set<Team> teams;
@@ -25,31 +28,29 @@ public class LeagueEntity {
 
 	public LeagueEntity(String name) {
 		super();
-		this.name = name;
+		this.leagueEntityName = name;
 	}
 
-	@Column(name = "name", length = 45)
-	private String name;
-
-	public Integer getId() {
-		return id;
+	public Integer getLeagueEntityId() {
+		return leagueEntityId;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setLeagueEntityId(Integer id) {
+		this.leagueEntityId = id;
 	}
 
-	public String getName() {
-		return name;
+	public String getLeagueEntityName() {
+		return leagueEntityName;
 	}
 
-	public void setName(String name) {
-		this.name = name;
+	public void setLeagueEntityName(String name) {
+		this.leagueEntityName = name;
 	}
 
 	@Override
 	public String toString() {
-		return "LeagueEntity [id=" + id + ", name=" + name + "]";
+		return "LeagueEntity [leagueEntityId=" + leagueEntityId
+				+ ", leagueEntityName=" + leagueEntityName + "]";
 	}
 
 }
